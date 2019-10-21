@@ -1,0 +1,71 @@
+/*-----首页-------*/
+#index{padding-top:1.16rem;}
+#index .head{line-height:1.17rem;background: #00a2ed;color:#fff;font-size: 0.35rem;width: 100%;position: fixed;left: 0;top:0;z-index: 1}
+#index .head img{vertical-align: middle}
+#index{width:100%;}
+#index #important{position: relative}
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
+}
+.am-navbar {
+    display: flex;
+    align-items: center;
+    line-height:1.17rem !important;
+    background-color: #108ee9;
+    color: #fff;
+}
+/*-------详情页------*/
+#detail{position: relative}
+#detail .head{height:1.67rem;background: #00a2ed}
+#detail .head img{width: 0.45rem;margin-top:0.55rem}
+#detail .head span{margin-top:0.6rem;color:#fff;margin-left: 0.15rem}
+#detail .give .main{width: 6rem}
+#detail .give li{display: inline-block;width: 1.06rem;text-align: center;margin: 0.44rem 0.4rem 0;}
+#detail .give li span{font-size: 0.2rem}
+/*-------评论--------*/
+#comment{padding-top: 1.12rem}
+#comment .head{line-height:1.12rem;background: #00a2ed;position: fixed;top:0;left: 0;width: 100%;z-index: 99999999;}
+#comment .my-accordion .pad .am-accordion-content-box {
+    padding: 10px;
+}
+#comment .body{background: #fff;margin-top: 0 !important;}
+#comment .body p{line-height:0.94rem;font-size:0.25rem;padding-left:0.33rem;border-bottom: 0.02rem solid #e0e0e0; margin:  0 !important;}
+#comment .body ul li{border-bottom: 0.02rem solid #e0e0e0;padding:0.36rem 0 .38rem 0.3rem;}
+#comment .body  .middle{width: 5.4rem !important;position: relative}
+#comment .body ul li i,em{font-size: 0.3rem;line-height: 0.44rem}
+#comment .body ul li i{margin-bottom: 0.2rem}
+#comment .body ul li img{border-radius: 50%}
+.display{height: 0.65rem;text-overflow: ellipsis;overflow: hidden;position: relative;}
+.display:after{content: '... ';position: absolute;right: 0;bottom: 0;padding-left: 0.05rem;background: #fff;}
+#comment #display{position: absolute;bottom: 0;right: 0;font-size: 0.2rem;background: #ddd;color: #777;padding: 0.08rem}
+.am-list-item .am-list-line{padding-right:0 !important;}
+.am-list-item .am-list-line .am-list-content {white-space: normal !important;}
+.am-accordion .am-accordion-item .am-accordion-header{font-size: 0.25rem !important;line-height: 0.94rem !important;height: 0.94rem !important;}
+
+/*----------首页中插入的---------*/
+.am-list-item{padding-left:0 !important;}
+.am-list-item .am-list-line .am-list-content{padding-top: 0 !important;}
+
+
+/*-----------收藏-------------*/
+#collection{padding-top: 1.12rem}
+#collection #important{position: relative}
+#collection .head{line-height:1.12rem;background: #00a2ed;position: fixed;top:0;left: 0;width: 100%;
+    color: #FFf;font-size: 0.34rem;  z-index: 1}
+#collection ul{padding:0.07rem 0.15rem}
+#collection ul li{width: 6.5rem;margin-bottom: 0.14rem;border: 0.01rem solid #e3e3e3;height:1.67rem}
+#collection ul li em{font-size: 0.33rem;line-height: 0.43rem;color:#6a6a6a}
+#collection ul li img{width: 1.64rem;height:1.64rem}
+
